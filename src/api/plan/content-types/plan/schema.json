@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "singularName": "plan",
+    "pluralName": "plans",
+    "displayName": "Plan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "features": {
+      "type": "json"
+    },
+    "isPopular": {
+      "type": "boolean"
+    },
+    "ctaText": {
+      "type": "string"
+    }
+  }
+}
