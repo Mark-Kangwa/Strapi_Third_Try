@@ -5,7 +5,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:1337', 'http://localhost:8080', 'https://https://lovable.dev/projects/7ed7aa52-fe34-4551-9f8e-9127a561b28b'],
+      origin: ['http://localhost:1337', 'http://localhost:8080', 'https://lovable.dev/projects/138edef9-a445-455d-9927-44fef3301531?view=codeEditor'],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
       keepHeaderOnError: true,
